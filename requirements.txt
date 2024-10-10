@@ -1,0 +1,8 @@
+pandas
+seaborn
+nltk
+scikit-learn
+ipykernel
+catboost
+lightgbm
+sidetable

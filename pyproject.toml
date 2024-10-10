@@ -1,0 +1,32 @@
+[project]
+name = "tomatos"
+version = "0.0.1"
+authors = [
+    {name = "Cainã Silva", email = "coutodasilva@wisc.edu"},
+    {name = "Hermione Wei", email = "qwei26@wisc.edu@wisc.edu"},
+    {name = "Lawrence Su", email = "lgsu@wisc.edu"},
+    {name = "Sophie Barabas", email = "sabarabas@wisc.edu"}
+]
+description = "A classifier for predicint if a tweet talks about real disasters."
+readme = "README.md"
+requires-python = "~=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "ruff>=0.6.8",
+    "tqdm>=4.66.5",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+force-sort-within-sections = true
